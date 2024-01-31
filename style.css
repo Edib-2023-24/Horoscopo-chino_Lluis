@@ -16,38 +16,56 @@ main {
   display: grid;
   grid-template-columns: repeat(25, 1fr);
   grid-template-rows: repeat(20, 1fr);
-  row-gap: 12px;
-  column-gap: 34px;
+  row-gap: 24px;
+  column-gap: 10px;
 }
 
 .ano-drgn {
-  grid-column: 6/7;
+  grid-column: 6/8;
   grid-row: 7/9;
 }
 
 .drgn {
-  grid-column: 9/16;
-  grid-row: 5/15;
+  grid-column: 10/12;
+  grid-row: 8/14;
+  justify-content: center;
+  align-self: center;
 }
 
 .corazon {
-  grid-column: 18/20;
-  grid-row: 9   /11;
+  grid-column: 19/21;
+  grid-row: 9/11;
+  justify-content: center;
 }
 
 .gallo {
-  grid-column: 20/22;
+  grid-column: 21/23;
   grid-row: 4/6;
 }
 
 .mono {
-  grid-column: 20/22;
-  grid-row: -13/-11;
+  grid-column: 21/23;
+  grid-row: -14/-8;
+  align-self: center;
 }
 
 .rata {
-  grid-column: 20/22;
-  grid-row: 14/16;
+  grid-column: 21/23;
+  grid-row: -8/-5;
+  align-self: center;
+}
+
+.text {
+  grid-column: 8/19;
+  grid-row: 16/19;
+
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: var(--Accento);
+  line-height: 1.5;
 }
 
 /* =================== Variables =================== */
