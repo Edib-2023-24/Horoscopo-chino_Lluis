@@ -7,7 +7,7 @@
 
 html {
   background: var(--Rojo);
-  background-image: url(svg/svg-background.svg);
+  background-image: url(../svg/svg-background.svg);
 }
 
 main {
@@ -26,10 +26,9 @@ main {
 }
 
 .drgn {
-  grid-column: 10/12;
+  grid-column: 12/15;
   grid-row: 8/14;
-  justify-content: center;
-  align-self: center;
+  place-self: center;
 }
 
 .corazon {
